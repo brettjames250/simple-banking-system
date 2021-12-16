@@ -26,7 +26,6 @@ public class DatabaseConnection {
     }
 
     void createCardTable() {
-
         String url = DB_URL + dbPath;
 
         String sql = "CREATE TABLE IF NOT EXISTS card (\n"
@@ -44,7 +43,6 @@ public class DatabaseConnection {
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
-
     }
 
     void getAllCards() {

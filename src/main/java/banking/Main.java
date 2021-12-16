@@ -7,5 +7,4 @@ public class Main {
         App app = new App(dbPath);
         app.run();
     }
-
 }
